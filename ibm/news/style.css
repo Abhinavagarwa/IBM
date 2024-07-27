@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.nav{
+    height: 100px;
+    width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.nav img{
+    height: 100px;
+    width: 700px;
+}
+.btns{
+    display: flex;
+    flex-wrap: wrap;
+}
+#news{
+    background-color: white;
+    color: rgb(250, 104, 104);
+}
+.nav button{
+    height: 100px;
+    width:200px;
+    background-color: rgb(244, 104, 104);
+    color: white;
+    border: 1.8px solid black;
+    font-size: 22px;
+    cursor: pointer;
+}
+.main{
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 100%;
+}
+.main h1{
+    color: rgb(250, 104, 104);
+    font-size: 50px;
+    letter-spacing: 3px; }
+    .cards-container{
+        margin-top: 30px;
+        height: fit-content;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .card{
+        width: 280px;
+        height: 480px;
+        background-color: rgb(237, 235, 235);
+    }
+    .card img{
+        width: 100%;
+        height: 180px;
+        object-fit: cover;
+    }
+    .card-text{
+        padding:15px;
+    }
+    .card-text h3{
+        line-height: 18px;
+        letter-spacing: -0.5px;
+        font-size: 15px;
+    }
+    .card-text p{
+        font-size: 15px;
+        margin-top: 15px;
+        line-height: 20px;
+        margin-bottom: 30px;
+    }
+    hr {
+        border: none;
+        border-top: 1px solid black;
+    }
+    .read{
+        letter-spacing: -0.8px;
+        font-size: 15px;
+        margin-top: 5px;
+    }
+    
