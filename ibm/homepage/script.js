@@ -78,12 +78,4 @@ document.getElementById('submitBtn').addEventListener('click', () =>
          }
     });
 
-document.getElementById('name').addEventListener('input', updateContent);
-document.getElementById('ge').addEventListener('input', updateContent);
-document.getElementById('wage').addEventListener('input', updateContent);
-document.getElementById('mem').addEventListener('input', updateContent);
-document.getElementById('choice').addEventListener('change', updateContent);
-
-document.getElementById('submitBtn').addEventListener('click', updateContent);
-    
     
