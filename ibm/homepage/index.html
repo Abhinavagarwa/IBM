@@ -31,7 +31,29 @@
             <h1>Identify your reasons of Poverty:</h1>
         </div>
         <div class="container">
-            <p>form</p>
+            <p class="pinp">Enter your name:</p>
+            <input class="inp" type="text" id="name"></input>
+            <p class="pinp" >Enter your age:</p>
+            <input class="inp" type="number" min="1" id="ge"></input>
+            <p class="pinp" >Enter number of members in family:</p>
+            <input class="inp" type="number" min="1" id="mem"></input>
+            <p class="pinp">Enter your income of family in one month:</p>
+            <input class="inp" type="number" id="wage"></input>
+            <p class="pinp">Enter your choice:</p>
+            <select id="choice" class="inp">
+                <option value="1">Health Schemes</option>
+                <option value="2">Job Schemes</option>
+                <option value="3">Wage Schemes</option>
+                <option value="4">Financial Knowledge Schemes</option>
+                <option value="5">Family Planning</option>
+                <option value="6">None</option>
+            </select><br>
+        
+            <button class="btn" id="submitBtn">Submit</button>
+            <p id="sol"></p>
+            <p id="ale"></p>
+            <p id="para"></p>
+            <div id="link"></div>
         </div>
         <div class="head3">
             <h1>THINGS TO DO</h1>
@@ -63,5 +85,6 @@
 </div>
         </div>
         <br>
+        <script src="script.js"></script>
 </body>
 </html>
